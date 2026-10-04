@@ -1,4 +1,4 @@
-# Streamora
+# StreamWeb
 
 A streaming-style website UI built with plain **HTML, CSS and JavaScript**. No frameworks, no build tools, no server needed.
 
