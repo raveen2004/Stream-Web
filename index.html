@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stream Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="nav-left">
+      <h1 class="logo">STREAM WEB</h1>
+      <nav class="nav-links">
+        <a href="#" class="active" data-filter="all">Home</a>
+        <a href="#" data-filter="series">Series</a>
+        <a href="#" data-filter="movie">Movies</a>
+        <a href="#" data-filter="mylist">My List</a>
+      </nav>
+    </div>
+    <div class="nav-right">
+      <input type="text" id="search" placeholder="Titles, genres...">
+      <div class="avatar">S</div>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h2 id="hero-title"></h2>
+      <p id="hero-meta" class="hero-meta"></p>
+      <p id="hero-desc" class="hero-desc"></p>
+      <div class="hero-buttons">
+        <button class="btn btn-play" id="hero-play">&#9654; Play</button>
+        <button class="btn btn-info" id="hero-info">&#9432; More Info</button>
+      </div>
+    </div>
+  </section>
+
+  <main id="rows"></main>
+
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close">&times;</button>
+      <div class="modal-banner" id="modal-banner">
+        <div class="player-msg" id="player-msg"></div>
+      </div>
+      <div class="modal-body">
+        <h3 id="modal-title"></h3>
+        <p class="modal-meta" id="modal-meta"></p>
+        <p id="modal-desc"></p>
+        <div class="hero-buttons">
+          <button class="btn btn-play" id="modal-play">&#9654; Play</button>
+          <button class="btn btn-info" id="modal-list">+ My List</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">Stream Web &mdash; demo project. All titles are fictional.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
