@@ -1,11 +1,6 @@
 # StreamWeb
 
 A streaming-style website UI built with plain **HTML, CSS and JavaScript**. No frameworks, no build tools, no server needed.
-
-**Live demo:** https://raveen2004.github.io/Stream-Web/
-
-> This is a learning / demo project. "Streamora" is a fictional brand, and all titles, descriptions and posters are made up.
-
 ## Features
 
 - Sticky navbar that changes background on scroll
